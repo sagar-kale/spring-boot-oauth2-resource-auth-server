@@ -1,0 +1,8 @@
+server:
+  port: 7777
+  servlet:
+    context-path: /auth-server
+security:
+  oauth2:
+    resource:
+      filter-order: 3
